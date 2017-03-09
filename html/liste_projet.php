@@ -8,11 +8,11 @@
           <div class="row valign-wrapper">
             <p class="flow-text  valign center-align col l12">NOISY</p>
           </div>
-          <div class="row" style="margin-left:0px;">
-            <p class="flow-text">Application musicale développé sur IOS et Android.</p>
+          <div class="row conteneur_texte_projet" >
+            <p class="flow-text texte_projet">Application musicale développé sur IOS et Android.</p>
           </div>
           <div class="bouton_information">
-                <a class=" btn-floating btn-large waves-effect waves-light blue darken-4 z-depth-5" href="#" onclick="affichage_contenu();" style="z-index:20;"><i class="material-icons">add</i></a>
+                <a class="bouton_anim btn-floating btn-large waves-effect waves-light blue darken-4 z-depth-5" href="#" onclick="affichage_contenu();" style="z-index:20;"><i class="material-icons">add</i></a>
                 <div class="menu-espanso">
                     <div id="menu" class="menu">
                         <div id="menu-in" class="menu-in"></div>

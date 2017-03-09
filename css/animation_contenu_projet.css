@@ -6,8 +6,8 @@
 	width: 33.33vw;
   height:80vh;
   top: -80vh;
-  margin-top:5.5vh;
-  right: 2vw;
+  margin-top: 2.2rem;
+  right: 1.6rem;
   overflow: hidden !important;
   z-index: 5;
 }
@@ -43,8 +43,8 @@
 }
 
 .over {
-  width: 2000px;
-  height: 2000px;
+  width: 2500px;
+  height: 2500px;
   transition: all 0.350s ease-in;
   cursor: default;
 }

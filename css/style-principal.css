@@ -1,4 +1,5 @@
 html, body {
+  position: relative;
   height: 100vh;
   width:100vw;
   overflow-x: hidden;
@@ -16,7 +17,7 @@ html, body {
 #partie_menu_1, #partie_menu_2, #partie_menu_3, #partie_menu_4, #partie_menu_5, #partie_menu_6{
    display: inline-block;
    height: 10vh;
-   width: 16.667vw;
+   width: 16.666vw;
    font-size: 20px; font-size: 2rem;
 }
 .icone_menu{
@@ -214,6 +215,15 @@ border-right:75px solid transparent;
 }
 .bouton_information{
   position: absolute;
-  bottom:-3vh;
-  left:-2vw;
+  bottom:-1.6rem;
+  left:-1.6rem;
+}
+
+.texte_projet{
+  margin-left: auto;
+  margin-right: auto;
+  width:86%;
+}
+.conteneur_texte_projet{
+  margin-top:-50px;
 }
