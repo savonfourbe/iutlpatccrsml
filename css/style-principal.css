@@ -1,6 +1,219 @@
 html, body {
-  height: 100%;
-  width:100%;
+  height: 100vh;
+  width:100vw;
   overflow-x: hidden;
 }
+.menu-presentation{
+  height:10vh;
+  width:100vw;
+  position: fixed;
+  font-size: 0;
+  z-index: 1000;
+}
+.side-nav{
+  z-index: 10000;
+}
+#partie_menu_1, #partie_menu_2, #partie_menu_3, #partie_menu_4, #partie_menu_5, #partie_menu_6{
+   display: inline-block;
+   height: 10vh;
+   width: 16.667vw;
+   font-size: 20px; font-size: 2rem;
+}
+.icone_menu{
+  position: absolute;
+  top :1vh;
+  left:6vw;
+}
+.conteneur_info{
+  position: relative;
+}
+#partie_triangle_5{
+width:0px;
+border:300px solid #42a5f5;
+border-top:300px solid transparent;
+border-right:300px solid transparent;
+}
+#partie_triangle_3{
+width:0px;
+position: absolute;
+left:0;
+border:150px solid #90caf9;
+border-bottom:150px solid transparent;
+border-left:150px solid transparent;
+}
+#partie_triangle_4{
+width:0px;
+position: absolute;
+right:0;
+border:150px solid #64b5f6;
+border-top:150px solid transparent;
+border-left:150px solid transparent;
+}
+#partie_triangle_2{
+width:0px;
+position: absolute;
+right:0;
+z-index: 10;
+border-top:75px solid #e3f2fd;
+border-left:75px solid transparent;
+border-right:75px solid transparent;
+}
+.waves-effect.waves-blue .waves-ripple {
+     /* The alpha value allows the text and background color
+     of the button to still show through. */
+      background-color: #42a5f5;
+}
 
+
+
+ 
+
+
+#container-inside {
+  position: relative;
+  min-width: 960px;
+  max-width: 1280px;
+  height: auto;
+  min-height: 100%;
+  margin: 0px auto;
+  padding: 0px auto;
+  
+}
+
+
+
+#section-material {
+  background: #00adef;
+  background: -moz-linear-gradient(-45deg, #00adef 0%, #0076e5 100%);
+  background: -webkit-linear-gradient(-45deg, #00adef 0%, #0076e5 100%);
+  background: linear-gradient(135deg, #00adef 0%, #0076e5 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#00adef', endColorstr='#0076e5', GradientType=1);
+  position: relative;
+  height: 200% ;
+  width: 100%;
+  margin: 0px auto;
+  padding: 0px auto;
+}
+
+
+
+/* LEFT IMAGES ---------------------------------------------------------------------------------- */
+
+@-webkit-keyframes circle-small-scale {
+  0% {
+    -webkit-transform: scale(1.0);
+  }
+  100% {
+    -webkit-transform: scale(1.1);
+  }
+}
+
+@keyframes circle-small-scale {
+  0% {
+    transform: scale(1.0);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+
+#circle-small {
+  -webkit-animation: circle-small-scale 3s ease-in-out infinite alternate;
+  animation: circle-small-scale 3s ease-in-out infinite alternate;
+  animation-timing-function: cubic-bezier(.6, 0, .4, 1);
+  animation-delay: 0s;
+  position: absolute;
+  top: 200px;
+  left: -150px;
+  background: #fff;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  opacity: 0.4;
+}
+
+#circle-medium {
+  -webkit-animation: circle-small-scale 3s ease-in-out infinite alternate;
+  animation: circle-small-scale 3s ease-in-out infinite alternate;
+  animation-timing-function: cubic-bezier(.6, 0, .4, 1);
+  animation-delay: 0.3s;
+  position: absolute;
+  top: 50px;
+  left: -300px;
+  background: #fff;
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  opacity: 0.3;
+}
+
+#circle-large {
+  -webkit-animation: circle-small-scale 3s ease-in-out infinite alternate;
+  animation: circle-small-scale 3s ease-in-out infinite alternate;
+  animation-timing-function: cubic-bezier(.6, 0, .4, 1);
+  animation-delay: 0.6s;
+  position: absolute;
+  top: -100px;
+  left: -450px;
+  background: #fff;
+  width: 900px;
+  height: 900px;
+  border-radius: 50%;
+  opacity: 0.2;
+}
+
+#circle-xlarge {
+  -webkit-animation: circle-small-scale 3s ease-in-out infinite alternate;
+  animation: circle-small-scale 3s ease-in-out infinite alternate;
+  animation-timing-function: cubic-bezier(.6, 0, .4, 1);
+  animation-delay: 0.9s;
+  position: absolute;
+  top: -250px;
+  left: -600px;
+  background: #fff;
+  width: 1200px;
+  height: 1200px;
+  border-radius: 50%;
+  opacity: 0.1;
+}
+
+#circle-xxlarge {
+  -webkit-animation: circle-small-scale 3s ease-in-out infinite alternate;
+  animation: circle-small-scale 3s ease-in-out infinite alternate;
+  animation-timing-function: cubic-bezier(.6, 0, .4, 1);
+  animation-delay: 1.2s;
+  position: absolute;
+  top: -400px;
+  left: -750px;
+  background: #fff;
+  width: 1500px;
+  height: 1500px;
+  border-radius: 50%;
+  opacity: 0.05;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+.conteneur_page{
+  width:100vw;
+  max-width: initial;
+  margin-top:15vh;
+  background-color: transparent;
+  position: absolute;
+  z-index: 10;
+}
+.bloc_blanc{
+  width: 100%;
+  height: 80vh;
+  background-color: white;
+  position: relative;
+  
+
+}
+.bouton_information{
+  position: absolute;
+  bottom:-3vh;
+  left:-2vw;
+}

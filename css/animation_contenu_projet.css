@@ -1,0 +1,84 @@
+
+
+.menu-espanso {
+  background-color: transparent;
+  position: absolute;
+	width: 33.33vw;
+  height:80vh;
+  top: -80vh;
+  margin-top:5.5vh;
+  right: 2vw;
+  overflow: hidden !important;
+  z-index: 5;
+}
+
+.menu {
+  cursor: pointer;
+}
+
+.menu-in {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  height: 49px;
+  width: 49px;
+  border-radius: 50%;
+  background-color: #0d47a1;
+  border: none;
+  transition: all 0.40s ease-out;
+}
+
+.menu {
+  position: absolute;
+  right: 0;
+  bottom:-10vh;
+  margin:0 0 0 0;
+  height: 49px;
+  width: 49px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: none;
+  transition: all 0.40s ease-out;
+}
+
+.over {
+  width: 2000px;
+  height: 2000px;
+  transition: all 0.350s ease-in;
+  cursor: default;
+}
+
+
+
+
+@keyframes closetop {
+  0% {
+    transform: translateY(5px) rotate(0deg);
+  }
+  25% {
+    transform: translateY(5px) rotate(0deg);
+  }
+  75% {
+    transform: translateY(5px) rotate(-45deg);
+  }
+  100% {
+    transform: translateY(5px) rotate(-45deg);
+  }
+}
+
+@keyframes closebottom {
+  0% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  25% {
+    transform: translateY(-5px) rotate(0deg);
+  }
+  75% {
+    transform: translateY(-5px) rotate(45deg);
+  }
+  100% {
+    transform: translateY(-5px) rotate(45deg);
+  }
+}
+
