@@ -6,7 +6,7 @@
 	width: 33.33vw;
   height:80vh;
   top: -80vh;
-  margin-top: 2.1rem;
+  margin-top: 2.2rem;
   right: 1.6rem;
   overflow: hidden !important;
   z-index: 5;
@@ -18,11 +18,11 @@
 
 .menu-in {
   position: absolute;
-  top: 0rem;
-  left: 0rem;
+  top: 50%;
+  left: 50%;
   transform: translateX(-50%) translateY(-50%);
-  height: 1px;
-  width: 1px;
+  height: 49px;
+  width: 49px;
   border-radius: 50%;
   background-color: #0d47a1;
   border: none;
@@ -32,10 +32,10 @@
 .menu {
   position: absolute;
   right: 0;
-  bottom:0;
+  bottom:-10vh;
   margin:0 0 0 0;
-  height: 1px;
-  width: 1px;
+  height: 49px;
+  width: 49px;
   border-radius: 50%;
   background-color: transparent;
   border: none;
